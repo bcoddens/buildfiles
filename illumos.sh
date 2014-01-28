@@ -237,4 +237,3 @@ export CW_NO_SHADOW=1
 export ONLY_LINT_DEFS=-I${SPRO_ROOT}/sunstudio12.1/prod/include/lint
 # The following select the proper version of GCC
 GCC_ROOT=/opt/gcc/4.4.4; export GCC_ROOT
-CW_GCC_DIR=${GCC_ROOT}/bin; export CW_GCC_DIR
