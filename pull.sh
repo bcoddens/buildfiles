@@ -1,1 +1,1 @@
-git pull origin master
+git pull upstream master -v
