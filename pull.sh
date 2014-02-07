@@ -6,3 +6,6 @@ git pull origin master -v
 cd /data/illumos/deploy/illumos-gate
 git checkout master
 git pull origin master -v
+cd /data/illumos/deploy/illumos-gate
+git checkout master
+git pull origin master -v
