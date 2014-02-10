@@ -1,0 +1,7 @@
+cd /data/illumos/deploy/illumos-gate
+git checkout master
+echo "Please enter bug number:"
+read input_variable
+git branch $input_variable
+git checkout $input_variable
+patch -p1 < /data/illumos/dev/patches/$input_variable
