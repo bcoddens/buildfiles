@@ -232,7 +232,6 @@ export SPRO_VROOT="$SPRO_ROOT"
 
 export ONNV_BUILDNUM=152
 # The following are added to build with GCC (no Sun Studio)
-export __GNUC=""
 export CW_NO_SHADOW=1
 export ONLY_LINT_DEFS=-I${SPRO_ROOT}/sunstudio12.1/prod/include/lint
 # The following select the proper version of GCC
