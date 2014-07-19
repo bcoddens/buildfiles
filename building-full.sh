@@ -1,4 +1,5 @@
 cd /data/illumos/deploy/illumos-gate
+git checkout master
 rm -rf *closed*
 cp usr/src/tools/scripts/nightly.sh .
 chmod +x nightly.sh

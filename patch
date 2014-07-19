@@ -6,3 +6,4 @@ git branch $input_variable
 git checkout $input_variable
 patch -p1 < /data/illumos/dev/patches/$input_variable.patch
 git commit -a -m '$input_variable'
+/data/illumos/buildfiles/building-patch.sh
